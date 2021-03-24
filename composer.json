@@ -1,0 +1,23 @@
+
+{
+    "name": "commercejar/test",
+    "description": "Module for test",
+    "type": "magento2-module",
+    "require": {
+        "php": "~7.1.3||~7.2.0||~7.3.0||~7.4.0",
+        "magento/module-ui": "101.1.*",
+        "magento/framework": "102.0.*"
+    },
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Adapttive\\Ui\\": ""
+        }
+    },
+    "version": "1.0.0"
+}
